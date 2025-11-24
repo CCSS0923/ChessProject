@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ChessCore">
+      <UniqueIdentifier>{94e1fd57-34d3-435d-8bdb-21debcba1e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ChessCore">
+      <UniqueIdentifier>{246bfc80-41c9-4dda-8a57-4826a22ba50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Engine">
+      <UniqueIdentifier>{95b5947d-3bb8-46b7-a4a3-80acad78c29e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Engine">
+      <UniqueIdentifier>{cce5400a-beb1-41e9-8bc6-7254e0a989f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gui">
+      <UniqueIdentifier>{52c05706-5b49-46fe-b87d-ba62cecc0e34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Gui">
+      <UniqueIdentifier>{addf35eb-6fb7-4890-9bde-88ceab9a6e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Utils">
+      <UniqueIdentifier>{455672a8-eeae-4894-967f-cb7b7f18002c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Utils">
+      <UniqueIdentifier>{c03bc70e-d831-496d-b0bc-5982463baa18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessProject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChessCore\Board.h">
+      <Filter>헤더 파일\ChessCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChessCore\Fen.h">
+      <Filter>헤더 파일\ChessCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChessCore\GameLogic.h">
+      <Filter>헤더 파일\ChessCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ChessCore\Piece.h">
+      <Filter>헤더 파일\ChessCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Engine\Stockfish.h">
+      <Filter>헤더 파일\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Gui\GuiManager.h">
+      <Filter>헤더 파일\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Gui\Renderer.h">
+      <Filter>헤더 파일\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Utils\Logger.h">
+      <Filter>헤더 파일\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ChessProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ChessProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\ChessCore\Board.cpp">
+      <Filter>소스 파일\ChessCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessCore\Fen.cpp">
+      <Filter>소스 파일\ChessCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ChessCore\GameLogic.cpp">
+      <Filter>소스 파일\ChessCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Engine\Stockfish.cpp">
+      <Filter>소스 파일\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Gui\GuiManager.cpp">
+      <Filter>소스 파일\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Gui\Renderer.cpp">
+      <Filter>소스 파일\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils\Logger.cpp">
+      <Filter>소스 파일\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+# Visual Studio 캐시
+.vs/
+*.ipch
+*.pch
+
+# Build artifacts
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# CMake build directory
+build/
+out/
+
+# External libraries (should be provided via script or release ZIP)
+extern/opencv/
+extern/stockfish/

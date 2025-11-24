@@ -1,0 +1,17 @@
+﻿  Board.cpp
+  Fen.cpp
+  GameLogic.cpp
+  Stockfish.cpp
+  GuiManager.cpp
+  Renderer.cpp
+  Main.cpp
+  Logger.cpp
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1359 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  ChessProject.vcxproj -> G:\VC++\ChessProject\x64\Release\ChessProject.exe
+  G:\VC++\ChessProject\ChessProject\..\extern\opencv\build\x64\vc16\bin\opencv_videoio_ffmpeg4120_64.dll
+  G:\VC++\ChessProject\ChessProject\..\extern\opencv\build\x64\vc16\bin\opencv_world4120.dll
+  G:\VC++\ChessProject\ChessProject\..\extern\opencv\build\x64\vc16\bin\opencv_world4120d.dll
+          3개 파일이 복사되었습니다.

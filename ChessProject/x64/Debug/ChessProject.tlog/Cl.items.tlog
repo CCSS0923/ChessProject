@@ -1,0 +1,8 @@
+G:\VC++\ChessProject\src\ChessCore\Board.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\Board.obj
+G:\VC++\ChessProject\src\ChessCore\Fen.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\Fen.obj
+G:\VC++\ChessProject\src\ChessCore\GameLogic.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\GameLogic.obj
+G:\VC++\ChessProject\src\Engine\Stockfish.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\Stockfish.obj
+G:\VC++\ChessProject\src\Gui\GuiManager.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\GuiManager.obj
+G:\VC++\ChessProject\src\Gui\Renderer.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\Renderer.obj
+G:\VC++\ChessProject\src\Main.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\Main.obj
+G:\VC++\ChessProject\src\Utils\Logger.cpp;G:\VC++\ChessProject\ChessProject\x64\Debug\Logger.obj
